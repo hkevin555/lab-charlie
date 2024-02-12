@@ -9,15 +9,17 @@ $(document).ready(function () {
 
       let dogeLeft = $("img").position().left;
 
-      if (dogeLeft > 300) {
+      if (dogeLeft > 200) {
         console.log("We are above 300", dogeLeft);
 
-        $("p").text("You won. Good for you.");
+        $("p").text("You won. Good for you 🥳🥳🥳 ");
 
         $("img").attr("src", "https://picsum.photos/200/300");
       } else {
         console.log("We are NOT above 300");
-      }
+        
+      }    
+      
     }
   });
 });
